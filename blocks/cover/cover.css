@@ -3,4 +3,6 @@
   padding-right: 48px;
   padding-left: 48px;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
