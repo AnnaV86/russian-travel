@@ -3,9 +3,16 @@
   list-style-type: none;
 }
 
+.footer__links-item:last-child {
+  margin: 0;
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__links-item {
     margin-right: 0;
     margin-bottom: 32px;
+  }
+  .footer__links-item:last-child {
+    margin: 0;
   }
 }
