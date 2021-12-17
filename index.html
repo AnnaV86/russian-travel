@@ -63,7 +63,7 @@
             <img
               class="lead__image"
               src="images/lead-polka.jpg"
-              img="Фото боковой полки поезда"
+              alt="Фото боковой полки поезда"
             />
             <p class="lead__caption">ваша полка — верхняя</p>
           </div>
@@ -85,18 +85,38 @@
           <!--исходя из данных Фигмы для цифр не указан отдельный font-weigth, 
            но если смотреть на проект, то явно видно что цифры написаны normal, а не bold. 
            Поэтому я добавила span для цифр и прописала им свойство  font-weight: 400;-->
-          <p class="intro__list">
-            Часовых поясов <span class="intro__list_normal">11</span>
-            <br />Объектов природного наследия ЮНЕСКО
-            <span class="intro__list_normal">12</span> <br />Объектов
-            культурного наследия ЮНЕСКО
-            <span class="intro__list_normal">16</span> <br />Природных
-            заповедников <span class="intro__list_normal">105</span>
-            <br />Аэропортов
-            <span class="intro__list_normal">241</span>
-          </p>
+          <ul class="intro__list">
+            <li>
+              <p class="intro__list-item">
+                Часовых поясов <span class="intro__list_normal">11</span>
+              </p>
+            </li>
+            <li>
+              <p class="intro__list-item">
+                Объектов природного наследия ЮНЕСКО
+                <span class="intro__list_normal">12</span>
+              </p>
+            </li>
+            <li>
+              <p class="intro__list-item">
+                Объектов культурного наследия ЮНЕСКО
+                <span class="intro__list_normal">16</span>
+              </p>
+            </li>
+            <li>
+              <p class="intro__list-item">
+                Природных заповедников
+                <span class="intro__list_normal">105</span>
+              </p>
+            </li>
+            <li>
+              <p class="intro__list-item">
+                Аэропортов <span class="intro__list_normal">241</span>
+              </p>
+            </li>
+          </ul>
         </section>
-        <section class="photo-grid">
+        <div class="photo-grid">
           <img
             class="photo-grid__item"
             src="images/photo-grid-train.jpg"
@@ -157,7 +177,7 @@
             src="images/photo-grid-ergaki.jpg"
             alt="Фото Ергаки"
           />
-        </section>
+        </div>
         <section class="places">
           <div class="place">
             <h2 class="place__title">Куршская коса</h2>
