@@ -7,3 +7,15 @@
   letter-spacing: 2px;
   color: #aaaaaa;
 }
+
+@media screen and (max-width: 768px) {
+  .place__url-heading {
+    font-size: 1.56vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__url-heading {
+    font-size: 12px;
+  }
+}
