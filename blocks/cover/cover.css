@@ -3,26 +3,28 @@
   background-image: url('../../images/cover-trains.jpg');
   background-size: cover;
   background-position: center;
-  height: 740px;
+  min-height: 740px;
+  width: 92.5%;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     margin: 92px 0 0;
-    height: 640px;
+    min-height: 640px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
     margin: 90px 0 0;
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
     margin: 66px 0 0;
-    height: 200px;
+    min-height: 200px;
   }
 }
