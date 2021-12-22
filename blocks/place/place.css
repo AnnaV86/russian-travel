@@ -5,6 +5,7 @@
   column-gap: 40px;
   row-gap: 48px;
   padding-bottom: 80px;
+  width: 100%;
 }
 
 .place:last-child {
@@ -21,8 +22,16 @@
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 1fr minmax(min-content, 352px);
-    column-gap: 3.64vw;
+    column-gap: 28px;
     padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .place {
+    grid-template-columns: auto;
+    row-gap: 32px;
+    padding-bottom: 50px;
   }
 }
 
